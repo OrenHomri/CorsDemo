@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   
-	after_action :allow_cors
+	after_filter :allow_cors
 
     private
 
